@@ -22,3 +22,16 @@
         }
     }
 }
+
+@media (max-width: 392px) {
+    .SearchBar-sort-options ul {
+        flex-direction: column;
+        align-items: center; 
+        li:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+    .SearchBar-fields input {
+        width: 14rem;
+    }
+}

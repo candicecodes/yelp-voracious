@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
 import BusinessList from './BusinessList';
 import SearchBar from './SearchBar';
 import Yelp from './Yelp';
