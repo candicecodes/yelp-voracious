@@ -1,0 +1,24 @@
+@media only screen and (max-width: 560px) {
+    html {
+        font-size: 15px;
+    }
+    input:focus {
+        outline: none;
+    }
+    .SearchBar {
+        // background-image: url('./background_search_mobile.jpg');
+        background-image: url('../assets/lum3n-mobile.jpg');
+    }
+    .SearchBar-sort-options ul {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    .SearchBar-fields {
+        flex-direction: column;
+        align-items: center;
+        input {
+            margin-right: 0;
+            margin-bottom: .86rem;
+        }
+    }
+}
